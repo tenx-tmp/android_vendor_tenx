@@ -127,6 +127,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode?=true \
 
+# Hide navigation bar hint
+PRODUCT_PACKAGES += \
+    NavigationBarNoHintOverlay
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUIGoogle \
