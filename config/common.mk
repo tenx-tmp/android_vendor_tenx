@@ -214,6 +214,10 @@ endif
 # NexusLauncher resources
 PRODUCT_PACKAGES += \
     NexusLauncherResOverlay
+    
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
 
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
