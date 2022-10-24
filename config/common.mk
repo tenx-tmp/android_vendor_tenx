@@ -31,6 +31,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     persist.sys.disable_rescue=true
 
+PRODUCT_PACKAGES += \
+    DarkBgOverlay
+
 ifeq ($(TARGET_BUILD_VARIANT),eng)
 # Disable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
