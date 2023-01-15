@@ -32,6 +32,8 @@ SOONG_CONFIG_customGlobalVars += \
     disable_bluetooth_le_set_host_feature \
     gralloc_handle_has_reserved_size \
     needs_camera_boottime \
+    uses_oplus_camera \
+    uses_nothing_camera \
     target_init_vendor_lib \
     target_inputdispatcher_skip_event_key \
     target_ld_shim_libs \
@@ -59,6 +61,8 @@ endif
 SOONG_CONFIG_customGlobalVars_camera_needs_client_info := $(TARGET_CAMERA_NEEDS_CLIENT_INFO)
 SOONG_CONFIG_customGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
 SOONG_CONFIG_customGlobalVars_needs_camera_boottime := $(TARGET_CAMERA_BOOTTIME_TIMESTAMP)
+SOONG_CONFIG_customGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
+SOONG_CONFIG_customGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
 SOONG_CONFIG_customGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_customGlobalVars_target_uses_prebuilt_dynamic_partitions := $(TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS)
 SOONG_CONFIG_customNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
