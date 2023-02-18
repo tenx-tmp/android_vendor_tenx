@@ -21,6 +21,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 endif
 
+# Elegance
+include vendor/overlays/Elegance/elegance.mk
+
 # BtHelper
 PRODUCT_PACKAGES += \
     BtHelper
